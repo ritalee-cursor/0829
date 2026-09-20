@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="讓半伴陪你從婚禮準備到當日流程，安心走向兩人共同的未來。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&amp;family=Outfit:wght@400;500;600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
   {
@@ -69,13 +69,14 @@
     <nav class="main-nav">
       <a href="#about">關於我</a>
       <a href="#work">精選作品</a>
+      <a href="#event-planning" data-page="event">活動企劃</a>
       <a href="#services">合作方式</a>
       <a class="nav-contact" href="#contact">預約諮詢</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero">
+  <main id="homePage">
+    <section class="hero" id="top">
       <div class="hero-copy">
         <p class="eyebrow">WEDDING COMPANION</p>
         <h1>讓每一個<br><em>重要時刻</em><br>都有被記住的方式。</h1>
@@ -148,6 +149,64 @@
         <button class="button button-light" type="submit">送出諮詢 <span>↗</span></button>
         <p class="form-message" aria-live="polite"></p>
       </form>
+    </section>
+  </main>
+  <main class="event-page" id="eventPlanningPage" hidden>
+    <section class="event-hero" id="event-planning">
+      <div>
+        <p class="eyebrow">EVENT PLANNING</p>
+        <h1>BAI Paris<br><em>快閃店企劃</em></h1>
+      </div>
+      <p class="event-intro">以完整的行銷規劃，將品牌的細節與現場體驗串連成一段值得親身走進的故事。</p>
+    </section>
+    <section class="event-case">
+      <div class="bai-gallery-wrap">
+        <div class="bai-gallery" id="baiGallery" tabindex="0" aria-label="BAI Paris 快閃店活動照片集">
+          <img src="bai-paris-popup-main.jpg" alt="BAI Paris 快閃店的珠寶陳列" loading="lazy">
+          <img src="bai-paris-popup-detail.jpg" alt="BAI Paris 快閃店的珠寶展示細節" loading="lazy">
+          <img src="bai-paris-popup-experience.jpg" alt="BAI Paris 快閃店的互動體驗裝置" loading="lazy">
+          <img src="bai-paris-popup-visitor.jpg" alt="來賓體驗 BAI Paris 快閃店互動裝置" loading="lazy">
+          <img src="bai-paris-popup-lamp.jpg" alt="BAI Paris 快閃店的暖色珠寶展示桌" loading="lazy">
+          <img src="bai-paris-popup-candle.jpg" alt="BAI Paris 快閃店的燭台與珠寶展示" loading="lazy">
+          <img src="bai-paris-popup-interior.jpg" alt="BAI Paris 快閃店的室內展示空間" loading="lazy">
+        </div>
+        <div class="bai-gallery-controls" aria-label="活動照片瀏覽控制">
+          <button class="bai-gallery-previous" type="button" aria-label="觀看上一張活動照片">←</button>
+          <div class="bai-gallery-dots" aria-label="活動照片瀏覽進度">
+            <button class="bai-gallery-dot active" type="button" data-index="0" aria-label="照片瀏覽進度第 1 段" aria-current="true"></button>
+            <button class="bai-gallery-dot" type="button" data-index="1" aria-label="照片瀏覽進度第 2 段"></button>
+            <button class="bai-gallery-dot" type="button" data-index="2" aria-label="照片瀏覽進度第 3 段"></button>
+            <button class="bai-gallery-dot" type="button" data-index="3" aria-label="照片瀏覽進度第 4 段"></button>
+            <button class="bai-gallery-dot" type="button" data-index="4" aria-label="照片瀏覽進度第 5 段"></button>
+          </div>
+          <button class="bai-gallery-next" type="button" aria-label="觀看下一張活動照片">→</button>
+        </div>
+      </div>
+      <div class="event-details">
+        <div><p class="eyebrow">PROJECT OVERVIEW</p><h2>讓品牌視覺與現場體驗，<br>在同一個故事裡相遇。</h2></div>
+        <div class="event-details-copy"><p>擔任品牌行銷與活動企劃，負責快閃店前期宣傳策略與整體行銷規劃，整合社群、電子報及合作內容，讓線上與線下的品牌感受保持一致。</p><p>活動規劃滿意度達 98.8%，平均 4.6／5；其中 69.5% 的消費者透過社群得知活動資訊，驗證前期宣傳策略的成效。</p><a class="text-link" href="#top">回到首頁 <span>↑</span></a></div>
+      </div>
+      <section class="event-story">
+        <div class="event-story-heading">
+          <div><p class="eyebrow">CONCEPT &amp; EXPERIENCE</p><h2>將巴黎的浪漫想像，<br>化成可以走進的場景。</h2></div>
+          <img class="par-amour-logo" src="2F3B336F-20AC-436E-A8D0-37525E413272.png" alt="Par Amour 快閃店主題標誌" loading="lazy">
+        </div>
+        <div class="event-story-grid">
+          <figure class="story-photo story-photo-poster"><img src="bai-paris-collab-lamp.jpg" alt="聯名珠寶系列與畫作靈感的展示場景" loading="lazy"><figcaption><span>01</span>畫作靈感的展示場景</figcaption></figure>
+          <figure class="story-photo story-photo-gallery"><img src="bai-paris-collab-display.jpg" alt="聯名珠寶系列的古典陳列與畫框細節" loading="lazy"><figcaption><span>02</span>古典畫框與珠寶陳列</figcaption></figure>
+          <figure class="story-photo story-photo-detail"><img src="bai-paris-collab-posters.jpg" alt="Par Amour 快閃店的主題海報與空間視覺" loading="lazy"><figcaption><span>03</span>從主題海報展開現場敘事</figcaption></figure>
+          <figure class="story-photo story-photo-campaign"><img src="聯名系列形象照.jpg" alt="聯名系列的形象照片" loading="lazy"><figcaption><span>04</span>從形象到現場的故事延伸</figcaption></figure>
+        </div>
+        <div class="event-story-copy"><p>本次聯名珠寶系列以羅浮宮畫作為靈感，將古典畫面的色彩、框景與巴黎氛圍，轉譯為可被看見、靠近與探索的快閃店體驗。</p><p>從前期內容溝通到現場動線與陳列細節，讓品牌的浪漫敘事不只停留在畫面，也自然發生在每一次參觀與互動之中。</p></div>
+        <section class="event-highlights" aria-label="快閃店企劃重點">
+          <p class="eyebrow">企劃重點</p>
+          <div class="event-highlight-list">
+            <article><span>01</span><h3>法式策展語言</h3><p>以柔和春日色調、插畫感視覺與巴黎元素，建立從預熱到現場一致的品牌情緒。</p></article>
+            <article><span>02</span><h3>聯名故事延伸</h3><p>從羅浮宮畫作發想的珠寶系列，透過畫框、古典物件與光影，讓商品成為場景的一部分。</p></article>
+            <article><span>03</span><h3>可探索的參觀節奏</h3><p>在系列展示、拍照與互動之間安排自然的停留節奏，讓每一次走近都延續品牌記憶。</p></article>
+          </div>
+        </section>
+      </section>
     </section>
   </main>
   <footer><a class="brand" href="#top">ʙàɴ ʙàɴ ᴡᴇᴅᴅɪɴɢ <span>半伴工作室</span></a><p>婚禮攝影企劃・活動企劃</p><p>© 2026 ʙàɴ ʙàɴ ᴡᴇᴅᴅɪɴɢ</p></footer>
